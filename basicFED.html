@@ -52,7 +52,7 @@
 				<section>
 					<section>
 						<h2>PROJECT 1: <br>BUILD A PERSONAL WEBSITE</h2>
-						<a href="https://dash.generalassemb.ly/shuyichan/build-your-own-personal-website" target="_blank"><img src="images/personal1.png" width="1346" alt="personalwebsite">
+						<a href="https://dash.generalassemb.ly/shuyichan/build-your-own-personal-website" target="_blank"><img data-src="images/personal1.png" width="1346" alt="personalwebsite">
 						</a>
 					</section>
 					<section>
@@ -66,18 +66,28 @@
 					<section>
 						<h2>有穿衣服</h2>
 						<p>完整 HTML+CSS 網頁</p>
-						<img src="images/explain3.png" width="1287" alt="html基礎架構螢幕">
+						<img data-src="images/explain3.png" width="1287" alt="html基礎架構螢幕">
 					</section>	
 					<section>
 						<h2>脫掉衣服</h2>
 						<p>拿掉 CSS 的網頁，只有骨架內容</p>
-						<img src="images/explain2.png" width="1287" alt="html基礎架構螢幕">
+						<img data-src="images/explain2.png" width="1287" alt="html基礎架構螢幕">
 					</section>	
 					<section>
 						<h2>丟掉內容</h2>
-						<p>一切的基礎 HTML 基礎架構</p>
-						<img src="images/explain1.png" width="1287" alt="html基礎架構螢幕">
-					</section>								
+						<p>一切的基礎 HTML 文件架構</p>
+						<img data-src="images/explain1.png" width="1287" alt="html基礎架構螢幕">
+					</section>		
+					<section>
+						<h2>HTML 基礎架構</h2>
+<a class="jsbin-embed" href="http://jsbin.com/qatare/4/embed?html,output">網頁標題</a><script src="http://static.jsbin.com/js/embed.js"></script>
+						<ul>
+							<li>DOCTYPE 版本宣告 html5</li>
+							<li>html 包住所有程式碼</li>
+							<li>head 頁面相關資訊 ＆ CSS碼</li>
+							<li>body 所有給使用者看到的網頁內容</li>
+						</ul>		
+					</section>												
 				</section>
 
 				<section>
@@ -85,55 +95,74 @@
 						<h1>HTML 基礎</h1>
 						<p>1. Make the headline and inputs</p>
 					</section>
-					<section>
-						<h2>HTML 基礎架構</h2>
-						<img src="images/html02.png" height="343" width="558" alt="html02">		
-						<ul>
-							<li>DOCTYPE 版本宣告</li>
-							<li>html 包住所有程式碼</li>
-							<li>head 頁面相關資訊 ＆ CSS碼</li>
-							<li>body 所有給使用者看到的網頁內容</li>
-						</ul>		
-					</section>	
+
 					<section>
 						<h2>
 							標籤 (tags) 
 						</h2>
-						<img src="images/tags.jpg" height="300" width="388" alt="tags">
-						<p>//標籤：告訴網頁內容的用途與意義</p>
+						<img data-src="images/tags.jpg" alt="tags">
+						<ul>
+							<li>標籤通常是成對的（開始與結束）</li>
+							<li>用來告訴網頁內容的用途與意義</li>
+							<li>//單獨標籤： br , hr , img</li>
+						</ul>
 					</section>
+
 					<section>
 						<h2>
 							標籤 的 屬性
 						</h2>
-						<img src="images/tags-type.jpg" height="300" width="388" alt="tags">
-						<p>//屬性：標籤中可以調整的選項</p>
+						<img data-src="images/tagsattri.jpg" alt="tags-attribute">
+						<ul>
+							<li>屬性：標籤中可以調整的選項</li>
+							<li>開始標記可以承載屬性，進一步說明標籤的內容</li>
+						</ul>
 					</section>
 					<section>
-						<h2>已學到 標籤</h2>
+						<h2>
+							標籤
+						</h2>
+						<a class="jsbin-embed" href="http://jsbin.com/tafalu/3/embed?html,output">HTML標籤展示</a><script src="http://static.jsbin.com/js/embed.js"></script>
+						<p>延伸： <a href="http://www.w3school.com.cn/tags/index.asp">html標籤學習總覽（w3school）</a></p>
+					</section>
+					<section>
+						<h2>標籤小重點</h2>
+						<ul>
+							<li>用對標籤 --了解HTML標籤有哪些，針對內容選用語意相符的標籤</li>
+							<li>有始有終 --開始標籤與結尾標籤</li>
+							<li>單獨標籤： br , hr , img </li>
+						</ul>
+						<p class="fragment">//撰寫HTML，就是為了正確告訴瀏覽器我想要的效果</p>
+					</section>					
+					<section>
+						<h2>part1.html basic code</h2>
 						<pre><code>
 	<h1>Anna Dowlin</h1>
 	<p>Hi!I'm Anna Dowlin,a NYC-based marketer.Say hello!</p>
 	<input type="email" placeholder="your email">
 	<input type="submit">  
-						</code></pre>
-						<ul>
-							<li>標題 h1</li>
-							<li>一段文字 p</li>
-							<li>輸入框 input type="email"</li>
-							<li>送出按鈕 input type="submit"</li>
-						</ul>
 
-						
+						</code></pre>
 					</section>
+					<!-- 
 					<section>
-						<h2>標籤小重點</h2>
+						<h2>1. DOCTYPE 版本宣告</h2>
+						<p>HTML有多個不同版本，只有完全明白頁面中使用的HTML版本，瀏覽器才能完全正確的顯示出HTML頁面這就是DOCTYPE的宣告用意。 </p>
 						<ul>
-							<li>用對標籤 --針對內容選用語意相符的標籤</li>
-							<li>有始有終 --開始標籤與結尾標籤</li>
+							<li>HTML5:
+								<pre><code>
+!DOCTYPE html>
+								</code></pre>
+							</li>
+							<li>HTML4.01:
+								<pre><code>
+!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+								</code></pre>
+							</li>
 						</ul>
-						<p class="fragment">//撰寫HTML，就是為了正確告訴瀏覽器我想要的效果</p>
-					</section>
+					</section>	 -->					
+
 				</section>
 
 
@@ -168,12 +197,12 @@
 					</section>
 					<section>
 						<h2>CSS 如何寫</h2>
-						<img src="images/css.jpg" height="300" width="648" alt="css解說">
+						<img data-src="images/property.jpg" alt="css解說">
 					</section>
 
 					<section>
 						<h2>CSS 排整齊</h2>
-						<img src="images/cssplace.jpg" height="300" width="516" alt="css解說">
+						<img data-src="images/place.jpg" alt="css解說">
 					</section>
 					<section>
 						<h2>CSS 選擇器</h2>
@@ -193,21 +222,28 @@
 						<h2>Class & ID 選擇器</h2>
 
 						<ul>
-							<li>.Class可共用 </li>
-							<li>#ID 是唯一</li>
+							<li>Class選取器使用"."---可共用 </li>
+							<li>ID選取器使用"#" ---是唯一</li>
 						</ul>
 						<p>CSS</p>
 						<pre><code>
-	.highlight{...}
-	#nolight{...}
+	.classname{...}
+	#idname{...}
 						</code></pre>						
 						<p>HTML</p>
 						<pre><code>
-	<h1 class="highlight">...</h1>
-	<p class="highlight">...</p>
-	<p id="nolight">...</p>
-						</code></pre>						
-					</section>									
+	<h1 class="classname">...</h1>
+	<p class="classname">...</p>
+	<p id="idname">...</p>
+						</code></pre>	
+						<p>//選擇器小遊戲: <a href="http://flukeout.github.io">CSS Diner</a></p>					
+					</section>
+
+					<section>
+						<h2>part2.css basic code</h2><p data-height="500" data-theme-id="7456" data-slug-hash="EarGeO" data-default-tab="result" data-user="shuyichan" class='codepen'>See the Pen <a href='http://codepen.io/shuyichan/pen/EarGeO/'>EarGeO</a> by shuyichan (<a href='http://codepen.io/shuyichan'>@shuyichan</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="http://assets.codepen.io/assets/embed/ei.js"></script>
+					</section>
+
 				</section>
 
 				<section>
@@ -219,7 +255,7 @@
 						<h2>img 標籤</h2>
 
 						<pre><code>
-	<img src="../personal1.png" alt="寫圖片描述">
+	<img src="/assets/anna.png" alt="寫圖片描述">
 						</code></pre>						
 						<ul>
 							<li>src 圖片路徑</li>
@@ -236,17 +272,17 @@
 								<ul>
 									<li>同一層（相同目錄下）就直接寫檔案名稱
 									<pre><code>
-	<img src="personal1.png" alt="寫圖片描述">
+	<img data-src="personal1.png" alt="寫圖片描述">
 									</code></pre>
 									</li>
 									<li>在下一層資料夾，就要寫資料夾名稱斜線再寫檔名
 									<pre><code>
-	<img src="images/personal1.png" alt="寫圖片描述">
+	<img data-src="images/personal1.png" alt="寫圖片描述">
 									</code></pre>
 									</li>
 									<li>如果是在上一層的目錄中則要加上../
 									<pre><code>
-	<img src="../personal1.png" alt="寫圖片描述">
+	<img data-src="../personal1.png" alt="寫圖片描述">
 									</code></pre>
 									</li>
 								</ul>								
@@ -271,14 +307,15 @@
 					</section>
 					<section>
 						<h2>Box Model盒子模型</h2>
-						<img src="images/boxmodel.jpg" alt="Box Model盒子模型">	
+						<img data-src="images/boxmodel.jpg" alt="Box Model盒子模型">	
 
 						<ul>
 							<li>物件大小 ＝ content+padding+border</li>
 							<li>與隔壁的距離 ＝ margin</li>
 						</ul>
+						<p>//資源：學習 CSS 版面配置- <a href="http://zh-tw.learnlayout.com/box-model.html">關於 Box Model</a> </p>
 					</section>
-					<section>
+					<!-- <section>
 						<h2>Box Model 算一算</h2>
 						<table>
 							<thead>
@@ -301,7 +338,7 @@
 								<tr>
 							</tbody>
 						</table>
-					</section>
+					</section> --><!-- 
 					<section>
 						<h2>不想算嗎？</h2>
 
@@ -324,12 +361,11 @@
 								<tr>
 							</tbody>
 						</table>
-					</section>					
+					</section>	 -->				
 				</section>
-
 				<section>
 					<h2>PROJECT 2: <br>BUILD A RESPONSIVE BLOG THEME</h2>
-					<a href="https://dash.generalassemb.ly/shuyichan/build-your-own-blog-theme" target="_blank"><img src="images/jeff.png"width="1350" alt="jeffblog"></a>
+					<a href="https://dash.generalassemb.ly/shuyichan/build-your-own-blog-theme" target="_blank"><img data-src="images/jeff.png"width="1350" alt="jeffblog"></a>
 				</section>
 				<section>
 					<section>
@@ -368,12 +404,12 @@
 						<p>2. Style the header with CSS</p>
 					</section>
 
-					<section>
+					<section><!-- 
 						<h2>CSS Reset </h2>
 						<ul>
 							<li>透過一組CSS設定，樣式統統歸零，排除不同瀏覽器間的預設值差異</li>
 							<li>常用的 ol, ul, li 等標籤，就必須特別再定義過才能正常運作</li>
-						</ul>
+						</ul> -->
 						<h2>CSS Normalize</h2>
 						<ul>
 							<li>保留原本預設 HTML 標籤的樣式</li>
