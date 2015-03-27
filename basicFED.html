@@ -374,7 +374,7 @@
 					</section>
 					<section>
 						<h2>
-							HTML 語意化標籤 
+							HTML5 語意化標籤 
 						</h2>
 						<p>//標籤：告訴網頁內容的用途與意義</p>
 						<ul>
@@ -393,9 +393,21 @@
 						<ul>
 							<li> 無序清單 : ul,li </li>
 							<li> 有序清單 : ol,li </li>
-							<li> 定義清單 : dl,dt,dd</li>
-							<li> 巢狀清單 : 清單中的清單</li>
 						</ul>
+						<div data-height="266" data-theme-id="7456" data-slug-hash="raRLby" data-default-tab="html" data-user="shuyichan" class='codepen'><pre><code>無序清單
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;About Me&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Best Poems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Worst Poems&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+有序清單
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;prepare&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;doing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;finish&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+<p>See the Pen <a href='http://codepen.io/shuyichan/pen/raRLby/'>raRLby</a> by shuyichan (<a href='http://codepen.io/shuyichan'>@shuyichan</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+</div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 					</section>
 				</section>
 				<section>
@@ -423,16 +435,41 @@
 						<ul>
 							<li>block「區塊元素」佔位哥， 舉例：p 、 form</li>
 							<li>inline「行內元素」謙虛哥，舉例：span、a</li>
+							<li>inline-block：外面是 inline ，裡面是 block</li>
 							<li>none 隱藏不佔位</li>
 						</ul>
-						<p>還有延伸： <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display" target="_blank">display所有值</a>、
-						<a href="http://zh-tw.learnlayout.com/display.html" target="_blank">display版面示意</a></p>	
+					</section>
+					<section>
+						<h2>display 範例說明</h2>
+						<div data-height="266" data-theme-id="7456" data-slug-hash="bNZwbG" data-default-tab="html" data-user="shuyichan" class='codepen'><pre><code>&lt;ul class=&quot;links&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;About Me&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Best Poems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Worst Poems&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;!-- 解說 --&gt;
+&lt;div class=&quot;aboutDisplay&quot;&gt;
+&lt;h2&gt;block：碰到元素就是會換行，而且block 元素的寬度預設會撐到最大&lt;/h2&gt;
+&lt;p&gt;都可以設定：margin 、 padding 、 width 、 height 、 background-image &lt;/p&gt;
+  
+&lt;h2&gt;inline:元素連在一起會在同一行，不會換行&lt;/h2&gt;
+&lt;p&gt;可以有 margin-left 、 margin-right 、 padding-left 、 padding-right ，但不能有 margin-top 、 margin-bottom 、 padding-top 、 padding-bottom 、 width 、 height 、 background-image&lt;/p&gt;
+  
+&lt;h2&gt;inline-block：外面是 inline ，裡面是 block&lt;/h2&gt;
+&lt;p&gt;碰到 display : inline-block 元素不會換行，但是又可以設定 padding-top 、 padding-bottom 、 width 、 height 、 background-image&lt;/p&gt;
+
+</code></pre>
+<p>See the Pen <a href='http://codepen.io/shuyichan/pen/bNZwbG/'>bNZwbG</a> by shuyichan (<a href='http://codepen.io/shuyichan'>@shuyichan</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+</div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 					</section>
 				</section>
 				<section>
 					<section>
-						<h1>響應式設計＆like按鈕</h1>
-						<p>3. Add responsive design + "like" button</p>
+						<h1>響應式設計</h1>
+						<p>3. Add responsive design</p>
 					</section>
 
 					<section>
